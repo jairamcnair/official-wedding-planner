@@ -1,3 +1,7 @@
+// remember that you have the original code in Eclipse and also in the wedding-planner-jsp in GitHub, so don't hesitate to make big changes
+
+
+
 const guestlistForm = document.querySelector(".guestlist-form");
 const guestlistRows = document.querySelectorAll(".guestlist-row");
 
