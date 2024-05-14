@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*font-family: 'sans serif', 'Montserrat';*/
+    font-family: 'sans serif', 'Poppins';
+    
+    /*font-family: "Varela Round", sans-serif;*/
+  	/*font-weight: 400;
+  	font-style: normal;*/
+}
+
+.page{
+	font-size: 20px;
+    margin-left: 25%; /* has to match nav width */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+nav{
+    /*border: 2px solid orange;*/
+    width: 25%; /* has to match #page margin-left*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: fixed; 
+    top: 0; /* makes div stretch from top to bottom without the content filling it all the way */
+    bottom: 0; /* makes div stretch from top to bottom without the content filling it all the way */
+    /*background-color: #FEF0E8;*/
+    background-color: #fafafa;
+}
+
+#h1-div{
+    /*border: 2px solid salmon;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: cadetblue;
+}
+
+#h1-div h1{
+    font-weight: 300;
+    text-align: center;
+    font-size: 20px; /* font-size: 25px;*/
+    color: white;
+}
+
+.nav-inner-1{
+    width: 100%;
+    /*border: 2px solid blue;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-div{
+    /*border: 2px solid yellow;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: cadetblue;
+    padding-left: 10px;
+}
+
+.p-div p{
+    font-size: 20px; /*font-size: 22px;*/
+    color: white;
+}
+
+.a-div{
+    /*border: 2px solid purple;*/
+    width: 80%;
+    padding-top: 5px;
+}
+
+a{ /* 'Link' element */
+    font-size: 20px; /*font-size: 19px;*/
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{ /* 'Link' element */
+    font-size: 18px; /*font-size: 20px;*/
+    text-decoration: underline;
+}
